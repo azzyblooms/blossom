@@ -1,8 +1,8 @@
-img {
+#trupet {
     width: 490px;
-    border: 10px solid #fff;
+    border: 20px solid #fff;
     position: relative;
-    top: 0px;
+    top: -166px;
     left: 0px;
     justify-items: center;
 }
@@ -10,7 +10,7 @@ body {
 
         font-family: cursive;
         color: #ffffff;
-        background-color: rgb(156, 124, 167);
+        background-color: #8fb1c7;
         text-align: center;
         
 }
@@ -19,6 +19,20 @@ a {
     font-size: large;
     font-weight:bold
 }
-canvas {
+
+#rectangle {
+    border: 10px solid #ffffff;
+    margin-left: -10px;
+    margin-top: 150px;
+    width: 100%;
+    height: 0;
+}
+#picrew {
+    width: 200px;
+    border: 20px solid #fff;
     position: absolute;
+    top: 90px;
+    left: 150px;
+    justify-items: center;
+    rotate: -6deg;
 }
